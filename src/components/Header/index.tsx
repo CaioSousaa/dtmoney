@@ -1,5 +1,5 @@
 import { Container, Content } from "./styles";
-import logoImg from "../../assetss/logo.svg";
+import logoImg from "../../assets/logo.svg";
 
 interface HeaderProps {
   onOpenNewTransactionModal: () => void;
@@ -14,7 +14,6 @@ export function Header({ onOpenNewTransactionModal }: HeaderProps) {
           Nova transação
         </button>
       </Content>
-      yarn add @types/react@18.0.22
     </Container>
   );
 }
