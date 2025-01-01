@@ -55,25 +55,23 @@ export const TransactionTypeContainer = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 
-interface RadiosBoxProps {
-  isActive: boolean;
-  activeColor: "green" | "red";
-}
-
 const colors = {
   green: "#33cc95",
   red: "#e52e4d",
 };
 
-export const RadiosBox = styled.button<RadiosBoxProps>`
+export const RadiosBox = styled.button<{
+  $isActive: boolean;
+  $activeColor: "green" | "red";
+}>`
   height: 4rem;
   border: 1px solid #d7d7d7;
   border-radius: 0.25rem;
   cursor: pointer;
 
   background: ${(props) =>
-    props.isActive
-      ? transparentize(0.9, colors[props.activeColor])
+    props.$isActive
+      ? transparentize(0.9, colors[props.$activeColor])
       : "transparent"};
 
   display: flex;
