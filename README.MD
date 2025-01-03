@@ -21,6 +21,6 @@ A aplicação é muito parecido com o classico to-do list, porém em vez de tare
 
 ---
 
-<img src="../dtmoney/img/Screenshot 2025-01-03 110926.png" alt="tela inicial">
+<img src="../dtmoney/img/Screenshot 2025-01-03 110926.png" alt="tela inicial"/>
 
-<img src="../dtmoney/img/modal.png" alt="tela inicial">
+<img src="../dtmoney/img/modal.png" alt="Modal"/>
